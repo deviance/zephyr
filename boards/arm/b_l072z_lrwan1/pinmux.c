@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018 Endre Karlson <endre.karlson@gmail.com>
+ * Copyright (c) 2018 Aleksandr Makarov <aleksandr.makarov@mailbox.org>
  *
  * SPDX-License-Identifier: Apache-2.0
  */
