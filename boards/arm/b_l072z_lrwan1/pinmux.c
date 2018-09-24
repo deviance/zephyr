@@ -12,7 +12,7 @@
 
 #include "pinmux/stm32/pinmux_stm32.h"
 
-/* pin assignments for Dragino LSN50 board */
+/* pin assignments for STMicroelectronics B-L072Z-LRWAN1 Discovery board */
 static const struct pin_config pinconf[] = {
 #ifdef CONFIG_UART_STM32_PORT_1
 	{STM32_PIN_PB6, STM32L0_PINMUX_FUNC_PB6_USART1_TX},
