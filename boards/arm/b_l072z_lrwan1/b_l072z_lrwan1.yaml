@@ -1,5 +1,5 @@
-identifier: stm32l072z_lrwan1
-name: STM32L072Z-LRWAN1
+identifier: b-l072z_lrwan1
+name: B-L072Z-LRWAN1
 type: mcu
 arch: arm
 toolchain:
