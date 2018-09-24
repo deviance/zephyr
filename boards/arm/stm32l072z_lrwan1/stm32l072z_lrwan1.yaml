@@ -1,0 +1,12 @@
+identifier: stm32l072z_lrwan1
+name: STM32L072Z-LRWAN1
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 20
+flash: 192
+testing:
+  ignore_tags:
+    - net

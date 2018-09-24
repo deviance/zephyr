@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2018 Endre Karlson <endre.karlson@gmail.com>
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+#include <st/stm32l072.dtsi>
+
+/ {
+	model = "STMicroelectronics B-L072Z-LRWAN1 Discovery kit";
+	compatible = "st,stm32l072z-lrwan1", "st,stm32l072";
+
+	chosen {
+		zephyr,console = &usart2;
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+	};
+};
+
+&usart1 {
+	current-speed = <115200>;
+	pinctrl-0 = <&usart1_pins_a>;
+	pinctrl-names = "default";
+};
+
+&usart2 {
+	current-speed = <115200>;
+	pinctrl-0 = <&usart2_pins_a>;
+	pinctrl-names = "default";
+	status = "ok";
+};
